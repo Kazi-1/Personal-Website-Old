@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    color:rgb(239, 0, 128);
+    margin: 0px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0px;
+}
+.header-area {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+p{
+    margin-bottom: 50px;
+}
+.half-width {
+    width: 42%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 600px;
+    height: auto;
+}
+section {
+    height: 500px;
+}
+.content {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.bio-content {
+    margin-left: 0px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(180deg, rgb(239, 0, 128), rgb(238, 167, 196));
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+.biography {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.biography img {
+    width: 500px;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.latest-work h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ul li{
+    list-style: none;
+}
+li img {
+    width: 28%;
+    float: left;
+    margin-left: 3%;
+}
+li:first-child{
+    margin-left: 1%;  
+}
+
+.link-button-lg {
+    border: none;
+    text-decoration: none;
+    background-image: linear-gradient(180deg, rgb(239, 0, 128), rgb(238, 167, 196));
+    padding: 50px 150px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.footer-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.footer-area h2 {
+    font-weight: 500;
+    font-size: 50px;
+}
+.footer-area h4{
+    font-weight: normal;
+    margin-bottom: 50px; 
+
+}
+.footer-area p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer-p {
+    margin-top: 200px;
+    color: gray;
+}
+h5{
+    margin: 0;
+    font-size: 18px;
+}
+.link-button-lg h3{
+    margin: 0;
+    font-size: 30px;
+}
